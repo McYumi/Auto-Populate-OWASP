@@ -90,7 +90,6 @@ for url_index, url in enumerate(Url):
     controls, extracted_texts = process_url(url, url_index)
 
     # Loop through each control's text
-# Inside the inner loop where you process each control
     for idx, control_text in enumerate(extracted_texts):
         control_number = controls[idx]  # e.g., '1.1.1'
         print(f"Processing control: {control_number}")
