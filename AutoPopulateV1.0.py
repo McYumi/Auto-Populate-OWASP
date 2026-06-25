@@ -67,12 +67,13 @@ def process_url(url, url_index):
     # Extract text between controls
     extracted_texts = extract_text_between_numbers(result)
     return controls, extracted_texts
-
+    
+#can be adjusted to get the perfect result for your needs.
 def make_system_content():
-    with open("AISVS_C1.1.1(good).md", "r") as file:
+    with open("ExampleSkillSheet.md", "r") as file:
         part1SystemContent = file.read()
     
-    with open("SystemContentUnupdated.md", "r") as file:
+    with open("SystemContent.md", "r") as file:
         part2SystemContent = file.read()
     
     FullSystemContent = part2SystemContent
