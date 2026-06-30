@@ -9,3 +9,9 @@ It will also try to tell you if it can be completely automated by an AI or if it
 ALWAYS check the output since it is AI generated mistakes can be made, and hallucination does happen sometimes.
 
 If needed it could also just be used as a scrape tool to quickly get controls and subcontrols for AISVS and ASVS.
+
+There's currently 2 versions of this script. 
+V1.1 uses beautifulsoup to scrape github.com it also has some more safety features to have better error handeling.
+
+V2.0 uses wget to download raw.githubusercontent.com and then uses that. Which saves loads of processing because it doesnt need to clean the output.
+V2.0 is not currently working properly.
